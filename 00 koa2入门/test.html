@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/axios/0.27.2/axios.js"></script>
+</head>
+<body>
+
+</body>
+<script>
+    axios.post("http://localhost:3000/").then(res=>{
+        console.log(res)
+    }).catch(err=> {
+        console.warn(err)
+    })
+</script>
+</html>
